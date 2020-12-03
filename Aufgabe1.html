@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Titel: Hello World</title>
+<link rel="stylesheet" type="text/css" href="Bild.css">
+<meta charset="utf-8"/>
+
+<style>
+body {
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+p {border-style:inset;
+   }
+h3 {
+  color: #000000;
+  font-family: sans-serif;
+}
+ol{
+  display:table;
+  margin:0 auto;
+}
+
+#Bild:hover {
+  animation:shake 0.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% {transform: translate(1px,1px) rotate(0deg); }
+  10% {transform: translate(-1px,-2px) rotate(-1deg); }
+  20% {transform: translate(-3px,0px) rotate(1deg); }
+  30% {transform: translate(3px,2px) rotate(0deg); }
+  40% {transform: translate(1px,-1px) rotate(1deg); }
+  50% {transform: translate(-1px,2px) rotate(-1deg); }
+  60% {transform: translate(-3px,1px) rotate(0deg); }
+  70% {transform: translate(3px,1px) rotate(-1deg); }
+  80% {transform: translate(-1px,-1px) rotate(1deg); }
+  90% {transform: translate(1px,2px) rotate(0deg); }
+  100% {transform: translate(1px,-2px) rotate(-1deg); }
+  }
+
+</style>
+</head>
+<body>
+  <h1><u>Spinatspätzle mit Schinken</u></h1>
+    <h3><u> Zutaten:</u></h3>
+    <p align="left"; style="font-size:110%">
+
+      <script>
+      function bold() {
+        var x = document.getElementsByClassName("Fett");
+        var i;
+        for (var i = 0; i < x.length; i++) {
+          x[i].style.fontWeight ="800";
+        }
+      }
+      function normal() {
+        var x =document.getElementsByClassName("Fett");
+        var i;
+        for (var i = 0; i < x.length; i++) {
+          x[i].style.fontWeight = "normal";
+        }
+      }
+
+      function myalert() {
+        alert("Du hast auf den Schinken geklickt!");
+      }
+      </script>
+
+
+      <map name="#workmap">
+        <area shape="circle" coords="69,69,50" alt="Schinken" href="Schinken.jpg">
+        <area shape="circle" coords="300,210,50" alt="Schinken" onclick="myalert()">
+      </map>
+
+      <div id="Bild"><img src="spinatspaetzle.jpg" style="float:right" width="auto" height="240px" usemap="#workmap"></div>
+      <a href="http://9gag.com" target="_blank"><img src="200.gif" style="float:right" width="auto" height="240px"></a>
+
+
+    <table class="Fett" style="width:30%">
+
+      <tr>
+        <th>Menge</th>
+        <th>Produkt</th>
+      </tr>
+      <tr>
+        <td>150g</td>
+        <td>Spinat (Tiefgekühlt)</td>
+      </tr>
+      <tr>
+        <td>300 g</td>
+        <td>Mehl</td>
+      </tr>
+      <tr>
+      <td>3 Stk.</td>
+        <td>Ei</td>
+      </tr>
+      <tr>
+        <td>100 mg</td>
+        <td>Milch</td>
+      </tr>
+      <tr>
+        <td>1 Prise</td>
+        <td>Salz</td>
+      </tr>
+      <tr>
+      <td>1 Stk.</td>
+        <td>Zwiebel</td>
+      </tr>
+      <tr>
+      <td>2 EL</td>
+        <td>Butter</td>
+      </tr>
+      <tr>
+      <td>1 Prise</td>
+        <td>Salz u. Pfeffer</td>
+      </tr>
+      <tr>
+        <td>250 g</td>
+        <td>Schinken</td>
+      </tr>
+      <tr>
+        <td>1/8 bzw. 125 ml</td>
+        <td>Weißwein</td>
+      </tr>
+      <tr>
+        <td>1 Becher</td>
+        <td>Obers</td>
+      </tr>
+    </table>
+  </p>
+
+<h3 align="center"><u> Zubereitung </u></h3>
+   <div class="Fett">
+
+     <ol>
+   <li> Schritt </li> </br>
+   Für Spinatspätzle mit Schinken zuerst den Spinat auftauen lassen, und wenn nötig mit dem Stabmixer pürieren.</br>
+   Nun aus Mehl verquirlten Eiern,
+   Milch Spinat und Salz einen zähflüssigen Teig bereiten und etwas rasten lassen. </text></br></br>
+   <li> Schritt </li> </br>
+   In der Zwischenzeit den Schinken in Streifen schneiden und die Zwiebel schälen und fein hacken. </br>
+   In einem Topf die Butter erhitzen und Zwiebel und Schinken anbraten.</br>
+   Mit dem Wein und dem Obers ablöschen und einkochen lassen. Mit Salz und Pfeffer abschmecken.</br></br>
+   <li> Schritt </li> </br>
+   Nach der Rastzeit des Teiges, in einem Topf das Salzwasser zum Kochen bringen. </br>
+   Nun den Teig mittels einer Spätzlepresse in das Wasser pressen. </br>
+   Wenn die Spätzle an der Wasseroberfläche schwimmen, abseihen </br></br>
+   <li> Schritt </li></br>
+   Jetzt nur noch die Spätzle mit der Sauce vermengen, nochmals kurz erwärmen und anrichten. </br></br>
+ </ol>
+ <button type="button" onclick="bold()">Bei unleserlichkeit Klicken!</button>
+ <button type="button" onclick="normal()">Rückgängig machen</button>
+   <h2><a href="https://www.gutekueche.at/spinatspaetzle-mit-schinken-rezept-23773" target="_blank"> Quelle </a></h2>
+</div>
+
+
+<iframe src="Aufgabe1.html" height="500" width="800" title="Ifram example"></iframe>
+
+</body>
+</html>
